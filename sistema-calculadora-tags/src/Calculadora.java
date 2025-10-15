@@ -19,4 +19,22 @@ public class Calculadora{
     public int somar(int numeroUm, int numeroDois){
         return numeroUm + numeroDois;
     }
+
+    /**esse método é um exemplo do curso java básico da DIO apenas para aprendizado das condiçionais */
+    public int somaMultiplica(int numeroUm, int numeroDois, String m ){
+        int resultado = 0;
+        if(m =="M"){
+            resultado = numeroUm * numeroDois;
+        }else{
+            resultado = numeroUm + numeroDois;
+        }
+        return resultado;
+    }
+
+    /**
+     * Código JAVADOC para criar nossa documentação no formato html para disponibilizar via web
+     * 
+     * Execute no terminal:
+     * javadoc - encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
+     */
 }
