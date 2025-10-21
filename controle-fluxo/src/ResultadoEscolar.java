@@ -5,7 +5,10 @@ public class ResultadoEscolar{
         if(nota >= 7)
         System.out.println("Aprovado");
 
+        else if (nota >= 5 && nota < 7)
+        System.out.println("Prova Recupração");
+
         else
-        System.out.println("Reprovado");
+        System.out.println("Reprovado!");
     }
-}
+}   
